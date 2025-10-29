@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Інтернет-магазин електроніки</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ElectroShop</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Головна</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Акції</a></li>
+        <li><a href="#">Про нас</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Ласкаво просимо до нашого магазину електроніки!</h2>
+    <p>Тут ви знайдете сучасні гаджети за найкращими цінами.</p>
+    <a href="#" class="btn">Перейти до каталогу</a>
+  </section>
+
+  <section class="catalog">
+    <h2>Каталог товарів</h2>
+
+    <div class="filters">
+      <label>Сортувати за:
+        <select>
+          <option>Популярністю</option>
+          <option>Ціною (зростання)</option>
+          <option>Ціною (спадання)</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="img/laptop.jpg" alt="Ноутбук">
+        <h3>Ноутбук Acer Aspire</h3>
+        <p>Потужний ноутбук для навчання та роботи</p>
+        <span class="price">25 999 грн</span>
+        <button>Детальніше</button>
+      </div>
+
+      <div class="product-card">
+        <img src="img/phone.jpg" alt="Смартфон">
+        <h3>Смартфон Samsung Galaxy</h3>
+        <p>Якісна камера та великий екран</p>
+        <span class="price">17 499 грн</span>
+        <button>Детальніше</button>
+      </div>
+
+      <div class="product-card">
+        <img src="img/headphones.jpg" alt="Навушники">
+        <h3>Навушники Sony WH-1000XM4</h3>
+        <p>Шумопоглинання та чистий звук</p>
+        <span class="price">9 299 грн</span>
+        <button>Детальніше</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-form">
+    <h2>Зворотний дзвінок</h2>
+    <form>
+      <input type="text" placeholder="Ваше ім’я" required />
+      <input type="tel" placeholder="Ваш телефон" required />
+      <button type="submit">Відправити</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 ElectroShop. Усі права захищено.</p>
+  </footer>
+</body>
+</html>
